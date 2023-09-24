@@ -1,5 +1,10 @@
 This application will work on both platform android and iOS and also i am adding video of working functionality can check on 'screenshot_videos' folder.
 
+API'S NAME:
+
+1. SCAN QR CODE API: https://skybuzz247.com/api/v5/qrcode?id=1
+2. SCAN LIST API: https://skybuzz247.com/api/v5/scans?id=1
+
 
 IF YOU FACING BELOW ISSUE THEN RESOLVE THROUGH STEPS AND TRY TO RUN THE APPLICATION:
 
