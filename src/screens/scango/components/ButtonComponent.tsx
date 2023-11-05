@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignSelf: 'center',
     borderWidth: 1,
-    borderColor: colors.black
+    borderColor: colors.red500
   },
   buttonText: {
     color: colors.black,
