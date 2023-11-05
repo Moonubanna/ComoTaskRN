@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
   },
   txtHeading: {
     color: colors.red500,
-    fontSize: 22,
+    fontSize: 26,
     fontWeight: '600',
   },
 });
