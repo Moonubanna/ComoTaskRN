@@ -4,7 +4,8 @@ import {colors} from '../../../common/resources/theme';
 const TextInputComponent = ({
   value = '',
   onTextChange = (value: string) => { },
-  textName = ''
+  textName = '',
+  placeHolderColor = ''
 }) => {
   return (
     <View style={styles.textInputParentContainer}>
@@ -12,6 +13,7 @@ const TextInputComponent = ({
       <TextInput
         key={'textName'}
         placeholder={textName}
+        placeholderTextColor={placeHolderColor}
         value={value}
         onChangeText={onTextChange}
         keyboardType={'default'}

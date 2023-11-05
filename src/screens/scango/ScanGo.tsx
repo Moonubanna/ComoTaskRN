@@ -86,7 +86,7 @@ const ScanGo = ({}) => {
     <Animated.View style={styles.container}>
       <HeaderComponent heading={'Scan & Go'} />
       <View style={styles.subContainer}>
-        <TextInputComponent value={name} onTextChange={nameTextChange} textName={'Write here to search...'} />
+        <TextInputComponent value={name} onTextChange={nameTextChange} textName={'Write here to search...'} placeHolderColor={'pink'} />
       </View>
       <ButtonComponent name={'Scan QR'} onPressButton={presScanButton} />
       {isQRCodeVisible && (
