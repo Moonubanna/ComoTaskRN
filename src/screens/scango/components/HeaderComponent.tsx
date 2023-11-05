@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
     padding: 10,
   },
   txtHeading: {
-    color: colors.black,
+    color: colors.red500,
     fontSize: 22,
     fontWeight: '600',
   },
