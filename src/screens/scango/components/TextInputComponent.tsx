@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 15
   },
   textHeading: {
-    color: colors.black,
+    color: colors.blue700,
     fontSize: 14,
     fontWeight: '600'
   },
@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
     color: colors.black,
     fontSize: 14,
     backgroundColor: colors.white,
-    borderColor: colors.black,
+    borderColor: colors.blue700,
     borderWidth: 1,
     marginLeft: 15,
     paddingHorizontal: 15
