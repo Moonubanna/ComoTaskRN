@@ -13,7 +13,7 @@ import {
 
 // Components
 import HeaderComponent from './components/HeaderComponent';
-//import TextInputComponent from './components/TextInputComponent';
+import TextInputComponent from './components/TextInputComponent';
 import ButtonComponent from './components/ButtonComponent';
 import QRCodeScanner from '../../common/components/QRCodeScanner';
 const ScanGo = ({}) => {
@@ -85,9 +85,9 @@ const ScanGo = ({}) => {
   return (
     <Animated.View style={styles.container}>
       <HeaderComponent heading={'Scan & Go'} />
-      {/* <View style={styles.subContainer}>
-        <TextInputComponent value={name} onTextChange={nameTextChange} />
-      </View> */}
+      <View style={styles.subContainer}>
+        <TextInputComponent value={name} onTextChange={nameTextChange} textName={'Hello'} />
+      </View>
       <ButtonComponent name={'Scan QR'} onPressButton={presScanButton} />
       {isQRCodeVisible && (
         <QRCodeScanner

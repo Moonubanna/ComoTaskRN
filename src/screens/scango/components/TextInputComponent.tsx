@@ -4,7 +4,7 @@ import {colors} from '../../../common/resources/theme';
 const TextInputComponent = ({
   value = '',
   onTextChange = (value: string) => { },
-
+  textName = ''
 }) => {
   return (
     <View style={styles.textInputParentContainer}>
