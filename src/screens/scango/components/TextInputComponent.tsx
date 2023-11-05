@@ -11,6 +11,7 @@ const TextInputComponent = ({
       <Text style={styles.textHeading}>{'Your Name'}</Text>
       <TextInput
         key={'textName'}
+        placeholder={textName}
         value={value}
         onChangeText={onTextChange}
         keyboardType={'default'}
