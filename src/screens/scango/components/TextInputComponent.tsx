@@ -4,6 +4,7 @@ import {colors} from '../../../common/resources/theme';
 const TextInputComponent = ({
   value = '',
   onTextChange = (value: string) => { },
+  name = ''
 
 }) => {
   return (
